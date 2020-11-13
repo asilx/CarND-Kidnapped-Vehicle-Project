@@ -12,6 +12,7 @@
 #include <string>
 #include <vector>
 #include "helper_functions.h"
+#include "multiv_gauss.h"
 
 struct Particle {
   int id;
@@ -23,7 +24,6 @@ struct Particle {
   std::vector<double> sense_x;
   std::vector<double> sense_y;
 };
-
 
 class ParticleFilter {  
  public:
